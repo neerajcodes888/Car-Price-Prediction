@@ -1,4 +1,4 @@
-![car_price](https://github.com/neerajcodes888/car_price_predict/assets/98253646/ac4c6074-eee6-4aa8-bac0-fcf284511c2e)
+
 
 # Car Price Prediction ML Project
 
