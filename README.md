@@ -1,10 +1,16 @@
-
+![car_price](https://github.com/neerajcodes888/car_price_predict/assets/98253646/ac4c6074-eee6-4aa8-bac0-fcf284511c2e)
 
 # Car Price Prediction ML Project
 
 ## Overview
 
 This project aims to develop a machine learning model to predict the prices of cars based on various features and attributes. The model is built using Python and popular libraries like scikit-learn and pandas.
+
+
+## Screnshots
+
+![car_price](https://github.com/neerajcodes888/car_price_predict/assets/98253646/93f24425-7134-46d8-8e0b-71a844e7d5bd)
+
 
 ## Dataset
 
@@ -15,6 +21,7 @@ We used the "Car Price Dataset" for training and evaluating the model. You can f
 ## Dependencies
 
 Make sure you have the following dependencies installed to run this project:
+
 
 - Python 3.6+
 - NumPy
@@ -80,8 +87,7 @@ We evaluated the model using common regression metrics such as Mean Absolute Err
 ## Contributors
 
 - [Neeraj Kumar]
-- [Contributor 1]
-- [Contributor 2]
+
 
 ## License
 
