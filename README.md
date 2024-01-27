@@ -12,6 +12,15 @@ This project aims to develop a machine learning model to predict the prices of c
 ![car_price](https://github.com/neerajcodes888/car_price_predict/assets/98253646/93f24425-7134-46d8-8e0b-71a844e7d5bd)
 
 
+##Demo Link
+
+<div align="center">
+  
+[Car Price Prediction Link](https://carpricepredict-crlkxz3lbkn.streamlit.app/)
+  
+</div>
+
+
 ## Dataset
 
 We used the "Car Price Dataset" for training and evaluating the model. You can find the dataset in the "data" directory.
