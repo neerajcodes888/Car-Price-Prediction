@@ -1,5 +1,5 @@
 click
-Flask
+Flask==1.0.2
 Flask-Cors
 gunicorn
 itsdangerous
