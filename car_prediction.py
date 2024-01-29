@@ -41,7 +41,7 @@ def main():
         s1=0
     elif arg3=="Diesel":
         s1=1
-    elif arg3=="CNG":
+    elif arg3=="Diesel":
         s1=2
     arg4=st.selectbox("Whether you are a Dealer or Indivisual",('Dealer','Indivisual'))
     if arg4=="Dealer":
