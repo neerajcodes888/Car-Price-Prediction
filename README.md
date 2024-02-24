@@ -2,6 +2,10 @@
 
 # Car Price Prediction ML Project
 
+
+![car_price_predict](https://socialify.git.ci/neerajcodes888/car_price_predict/image?description=1&descriptionEditable=%20%20%20%20%20%20%20This%20repository%20provides%20a%20streamlined%20approach%20to%20training%20models%20on%20diverse%20datasets%20for%20accurate%20car%20price%20predictions.&font=Bitter&language=1&name=1&owner=1&pattern=Solid&theme=Auto)
+
+
 ## Overview
 
 This project aims to develop a machine learning model to predict the prices of cars based on various features and attributes. The model is built using Python and popular libraries like scikit-learn and pandas.
