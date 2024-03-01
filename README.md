@@ -73,7 +73,7 @@ The Random Forest algorithm yielded the highest accuracy among the algorithms te
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/neerajcodes888/Data-Science/tree/main/Machine%20Learning/Car%20Price%20Prediction
+git clone https://github.com/neerajcodes888/Car-Price-Prediction
 cd car-price-prediction
 ```
 
