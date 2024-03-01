@@ -1,107 +1,116 @@
-
-
-# Car Price Prediction ML Project
-
+# Car Price Prediction 🚗💰
 
 ![car_price_predict](https://socialify.git.ci/neerajcodes888/car_price_predict/image?description=1&descriptionEditable=%20%20%20%20%20%20%20This%20repository%20provides%20a%20streamlined%20approach%20to%20training%20models%20on%20diverse%20datasets%20for%20accurate%20car%20price%20predictions.&font=Bitter&language=1&name=1&owner=1&pattern=Solid&theme=Auto)
 
+## Table of Contents
 
-## Overview
+1. [Introduction](#introduction)
+2. [Deployment](#deployment)
+3. [Demo](#demo)
+4. [Tools Used](#tools-used)
+5. [Libraries](#libraries)
+6. [Algorithms Used](#algorithms-used)
+7. [Results](#results)
+8. [Files Structure](#files-structure)
+9. [Installation](#installation)
+10. [Usage](#usage)
+11. [Future Work](#future-work)
+12. [License](#License)
 
-This project aims to develop a machine learning model to predict the prices of cars based on various features and attributes. The model is built using Python and popular libraries like scikit-learn and pandas.
+## Introduction 📝
 
+This project focuses on predicting car prices using machine learning techniques. The dataset used consists of various features such as mileage, brand, model, etc., and the target variable is the price of the car. The goal is to build a model that accurately predicts the price of a car given its features.
 
-## Screnshots
+### Deployment 🚀
 
-![car_price](https://github.com/neerajcodes888/car_price_predict/assets/98253646/93f24425-7134-46d8-8e0b-71a844e7d5bd)
+[Deployment Link](https://carpricepredict-crlkxz3lbkn.streamlit.app/)
 
+### Demo
 
-## Demo Link
+![Car_Price](https://github.com/neerajcodes888/Data-Science/assets/98253646/70f2cbf1-e153-4877-afac-80dca565a0d0)
 
-<div align="center">
-  
-[Car Price Prediction Link](https://carpricepredict-crlkxz3lbkn.streamlit.app/)
-  
-</div>
+## Tools Used 🔧
 
+- Python
+- Streamlit
 
-## Dataset
+## Libraries 📚
 
-We used the "Car Price Dataset" for training and evaluating the model. You can find the dataset in the "data" directory.
-
-- **Dataset Source**: [[Car-Price-Kaggle ](https://www.kaggle.com/code/goyalshalini93/car-price-prediction-linear-regression-rfe)]
-
-## Dependencies
-
-Make sure you have the following dependencies installed to run this project:
-
-
-- Python 3.6+
+- scikit-learn (sklearn)
+- Plotly
+- Pandas
 - NumPy
-- pandas
-- scikit-learn
-- Matplotlib
-- Jupyter Notebook (optional, for running the notebooks)
 
-You can install these dependencies using pip:
+## Algorithms Used 🤖
+
+1. Decision Tree
+2. Random Forest (yielding highest accuracy)
+3. XGBoost
+4. Linear Regression
+
+## Results 📊
+
+The Random Forest algorithm yielded the highest accuracy among the algorithms tested. Here are the accuracy scores for each algorithm:
+
+| Algorithm         | Accuracy Score |
+|-------------------|----------------|
+| Decision Tree     | 0.94           |
+| Random Forest     | 0.9477 (highest) |
+| XGBoost           | 0.9474           |
+| Linear Regression | 0.81           |
+
+## Files Structure 📂
+
+| File/Folder          | Description                                                  |
+|----------------------|--------------------------------------------------------------|
+| Prediction_model/    | Directory containing the trained machine learning models.    |
+| Prediction.ipynb     | Jupyter notebook for training the machine learning models.   |
+| app.py               | Streamlit web application for interacting with the models.    |
+| car_data.xls         | Dataset containing car features and prices.                  |
+| requirements.txt     | List of Python dependencies required for the project.  
+## Installation 🛠️
+
+1. Clone the repository:
 
 ```bash
-pip install numpy pandas scikit-learn matplotlib
+git clone https://github.com/neerajcodes888/Data-Science/tree/main/Machine%20Learning/Car%20Price%20Prediction
+cd car-price-prediction
 ```
 
-## Getting Started
+## Usage ℹ️
 
-1. Clone this repository to your local machine:
+Train the model:
 
 ```bash
-git clone <gh repo clone neerajcodes888/car_price_predict>
+python  prediction.ipynb
 ```
 
-2. Navigate to the project directory:
+Run the Streamlit app:
 
 ```bash
-cd car-price-prediction-ml
+streamlit run app.py
 ```
 
-3. Install the required dependencies as mentioned above.
 
-4. Run the Jupyter Notebook:
+## Future Work 🔮
 
-```bash
-jupyter notebook
-```
+Some potential areas for future improvement and expansion include:
 
-5. Open the `car-price-prediction.ipynb` notebook and follow the instructions for data preprocessing, model training, and evaluation.
+- Incorporating additional features such as car age, fuel type, and condition.
+- Experimenting with more advanced machine learning algorithms.
+- Fine-tuning model hyperparameters for improved performance.
+- Building a user interface for data input and displaying predictions in the Streamlit app.
+- Handling outliers and missing data more effectively.
+- Implementing feature engineering techniques to create more informative features.
 
-## Project Structure
+## License 📜
 
-The project directory is organized as follows:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-```
-car-price-prediction-ml/
-  ├── data/                    # Data files (e.g., car_data.csv)
-  ├── notebooks/               # Jupyter notebooks
-  │   ├── car-price-prediction.ipynb   # Main notebook
-  ├── README.md                # This README file
-  ├── requirements.txt         # List of project dependencies
-  └── .gitignore               # Git ignore file
-```
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-## Model Evaluation
-
-We evaluated the model using common regression metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R^2) to assess its performance. The results can be found in the Jupyter notebook.
-
-## Future Work
-
-- You can further improve the model's performance by trying different machine learning algorithms and hyperparameter tuning.
-- Explore feature engineering techniques to enhance the model's predictive power.
-- Create a web application or API to allow users to predict car prices based on input features.
-
-## Contributors
-
-- [Neeraj Kumar]
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
