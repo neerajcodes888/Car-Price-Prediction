@@ -15,6 +15,7 @@ def home():
 def predict():
     if request.method ==  'POST':
         price = request.form['price']
+        kms = request.form['kms']
         
 
 
