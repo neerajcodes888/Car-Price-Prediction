@@ -19,6 +19,7 @@ def predict():
         fuel = request.form['fuel']
         seller = request.form['seller']
         mode = request.form['mode']
+        own = request.form['own']
 
 
 
