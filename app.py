@@ -14,8 +14,8 @@ def home():
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
     if request.method ==  'POST':
-        price = request.form['price']
-        kms = request.form['kms']
+        price = float(request.form['price'])
+        kms = float(request.form['kms'])
         fuel = request.form['fuel']
         seller = request.form['seller']
         mode = request.form['mode']
