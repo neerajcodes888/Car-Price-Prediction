@@ -18,7 +18,7 @@ def predict():
         kms = request.form['kms']
         fuel = request.form['fuel']
         seller = request.form['seller']
-        
+        mode = request.form['mode']
 
 
 
