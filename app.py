@@ -20,6 +20,7 @@ def predict():
         seller = request.form['seller']
         mode = request.form['mode']
         own = request.form['own']
+        
 
 
 
