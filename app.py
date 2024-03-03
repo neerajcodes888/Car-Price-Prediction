@@ -14,6 +14,7 @@ def home():
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
     if request.method ==  'POST':
+        price = request.form['price']
         
 
 
