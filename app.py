@@ -41,7 +41,14 @@ def predict():
         else:
             seller=1
             
+        #mode
         
+        if(mode == 'Manual'):
+            mode=0
+        else:
+            mode=1
+            
+    
             
             
            
