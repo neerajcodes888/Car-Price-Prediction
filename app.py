@@ -22,7 +22,8 @@ def predict():
         own = request.form['own']
         year = request.form['year']
         current_year = datetime.datetime.now().year
-        age = current_year - year
+        age = current_year - int(year)
+
         
         #fuel
         
