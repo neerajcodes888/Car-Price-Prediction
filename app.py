@@ -51,6 +51,8 @@ def predict():
             
         prediction = model.predict([[price,kms,fuel,seller,mode,own,age]])
         
+        print(prediction)
+        
             
             
            
