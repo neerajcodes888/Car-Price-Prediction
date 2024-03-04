@@ -39,7 +39,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
         <a class="btn btn-primary" href="./" role="button">Home</a><br><br>
       
         <div class="prediction-box">
-          <h2 class="text-lg text-white font-semibold mb-2">Prediction Result :  <span class="text-base font-normal text-black" id="prediction-text">{{prediction_text}}</span></h2>
+          <h2 class="text-lg text-white font-semibold mb-2">Predicted Price :  <span class="text-base font-normal text-black" id="prediction-text">{{prediction_text}}</span></h2>
       </div>
       
     
@@ -104,14 +104,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
             <label for="exampleFormControlInput1" class="form-label"><b style="color: darkblue;">Select Year</b></label>
             <select class="form-select" id="year" name="year">
                 <option value="">-- Select Year --</option>
-                <!-- JavaScript to generate options for years from 1990 to the current year -->
             </select>
         </div>
         <script>
             var currentYear = new Date().getFullYear();
             var minYear = 1990;
-            var selectYear = document.getElementById("Year");
-        
+            var selectYear = document.getElementById("year");
             for (var year = currentYear; year >= minYear; year--) {
                 var option = document.createElement("option");
                 option.text = year;
