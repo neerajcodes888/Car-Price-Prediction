@@ -19,7 +19,7 @@ def predict():
         fuel = request.form['fuel']
         seller = request.form['seller']
         mode = request.form['mode']
-        own = request.form['own']
+        own = int(request.form['own'])
         year = request.form['year']
         current_year = datetime.datetime.now().year
         age = current_year - int(year)
