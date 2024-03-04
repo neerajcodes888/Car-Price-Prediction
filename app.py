@@ -48,6 +48,7 @@ def predict():
         else:
             mode=1
             
+            
         prediction = model.predict([[price,kms,fuel,seller,mode,own,age]])
         
             
