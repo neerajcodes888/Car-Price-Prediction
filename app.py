@@ -51,9 +51,9 @@ def predict():
             
             
         prediction = model.predict([[price,kms,fuel,seller,mode,own,age]])
+        final_price= round(prediction[0],2)
         
-        
-        return render_template("prediction.html", prediction_text="{Final Price Will be }".format(prediction))    
+        return render_template("prediction.html", prediction_text=" {}".format(final_price))    
         
     else:
         return render_template("prediction.html")  
