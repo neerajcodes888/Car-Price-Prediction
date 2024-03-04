@@ -24,6 +24,18 @@ def predict():
         current_year = datetime.datetime.now().year
         age = current_year - year
         
+        #fuel
+        
+        if(fuel == 'CNG'):
+            fuel=2
+        elif(fuel == 'Diesel'):
+            fuel=1    
+        else:
+            fuel=0
+            
+            
+           
+            
         
         
 
