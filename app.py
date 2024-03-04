@@ -33,6 +33,16 @@ def predict():
         else:
             fuel=0
             
+        
+        #seller
+        
+        if(seller == 'Dealer'):
+            seller=0
+        else:
+            seller=1
+            
+        
+            
             
            
             
