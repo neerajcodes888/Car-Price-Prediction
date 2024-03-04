@@ -11,6 +11,11 @@ model  = joblib.load('Prediction_Model')
 def home():
     return render_template("index.html")
 
+@app.route('/contact')
+def contact():
+    return render_template("contact.html")
+
+
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
     if request.method ==  'POST':
