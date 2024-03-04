@@ -33,13 +33,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
 <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"><b>Loan Approval Prediction</b></h1>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"><b>Car Price Prediction</b></h1>
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Fill the form for prediction</p>
         </div>
         <a class="btn btn-primary" href="./" role="button">Home</a><br><br>
       
         <div class="prediction-box">
-          <h2 class="text-lg text-white font-semibold mb-2">Predicted Price :  <span class="text-base font-normal text-black" id="prediction-text">{{prediction_text}}</span></h2>
+          <h2 class="text-lg text-white font-semibold mb-2">Predicted Price :  <span class="text-base font-normal text-black" id="prediction-text">{{prediction_text}} (in Lakhs)</span></h2>
       </div>
       
     
@@ -47,8 +47,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endCo
       <form action='/predict' method='POST'>
 
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"><b style="color: darkblue;">Enter Current Price</b></label>
-            <input type="number" class="form-control" id="price" name="price" placeholder="Enter Current Price" min="200000" max="2000000">
+            <label for="exampleFormControlInput1" class="form-label"><b style="color: darkblue;">Enter Current Price(in Lakhs)</b></label>
+            <input type="number" class="form-control" id="price" name="price" placeholder="Enter Current Price" min="1" max="20">
         </div>
         
         
