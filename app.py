@@ -21,6 +21,7 @@ def predict():
         mode = request.form['mode']
         own = request.form['own']
         year = request.form['year']
+        current_year = datetime.datetime.now().year
         
 
 
